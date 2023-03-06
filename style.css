@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: 'Open Sans';
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+hr
+{
+    border-color: #b1bccc;
+}
+
+
+.row
+{
+    display: flex;
+    margin: 0 -16px; 
+    padding: 16px 0px;
+    flex-wrap: wrap;
+    
+  
+}
+.col{
+    padding: 0 16px;
+}
+.col_2{
+    width:calc(100%/2);
+    
+}
+
+
+.col_3{
+    width:calc(100%/3);    
+}
+.col_4{
+    width:calc(100%/4);    
+}
+.col_5{
+    width:calc(100%/5);    
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+    /* border: 1px solid red */
+    /* background-color: aqua; */
+
+}
+.header{
+    background-color: whitesmoke;
+    padding: 2rem 0px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.divHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    width:100%;
+    align-items: center;
+    /* padding: 0 7rem; */
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.headerRight ul{
+    display: flex;
+}
+.headerRight  li{
+    list-style-type: none;
+}
+.headerRight a{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 18px;
+    color:#183B56;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 18px;
+  
+}
+.headerRight li span{
+    margin-left: 0.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.headerRight .button a
+{
+    border: 2px solid #1565D8;
+    color: #1565D8;   
+    padding: 0.5rem;
+     margin-right: 0rem; 
+    border-radius: 8px;
+    width: max-content;
+}
+.hero{
+    display: flex;
+}
+
+.left{
+    padding: 2rem 1rem 0rem 9rem
+}
+.right img{
+    width: 40rem;
+}
+.heroHeading{
+    margin-top: 1.5rem;
+    font-size: 40px;
+    color: #183B56;
+}
+.paragraph p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #183B56;
+}
+.heroButton{
+    background-color: #183B56       ;
+    border-radius: 5px;
+    width:fit-content ;
+    font-size: 18px;
+    padding: 0.8rem;
+    margin-top: 2rem;
+}
+
+.heroButton a{
+    color: white;
+}
+.arrow{
+    border: 1px solid #183B56;
+    display: inline-flex;
+    margin-top: 1rem;
+    border-radius: 50%;
+    padding: 0.8rem;
+}
+
+.ourPartner
+{
+    margin-top: 5rem;
+    
+}
+.heading2{
+    font-size: 35px;
+    color: #183B56;
+}
+.whatWeDo
+{
+margin-top: 5rem;
+background-color: whitesmoke;
+}
+.card{
+    display: flex;
+}
+.icon{
+padding-right: 1rem;
+}
+
+.card{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top:1rem;
+}
+.card label{
+    color: #183B56;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.card p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5A7184;
+}
+.ourProject{
+
+    margin-top: 5rem
+}
+.projectCard{
+    border-radius: 10px;
+    border:0.5px solid rgb(175, 171, 171)
+}
+.projectCard img{
+    width:100%;
+    
+}
+.projectDetail{
+    padding: 1rem;;
+}
+
+.projectDetail a{
+    color: #0685e6;
+    display: block  ;
+}
+.projectDetail label{
+    color: #0685e6;
+    color: #183B56;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 50px;
+   
+}
+.testimonial{
+    margin-top: 5rem
+}
+
+.reviewCard{
+    border-radius: 10px;
+    border:0.5px solid rgb(175, 171, 171);
+    padding: 2rem;
+}
+.people{
+    display: flex;
+}
+.peopleName{
+    padding-left: 1rem;
+}
+.peopleName label{
+    color: #183B56;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.peopleName p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5A7184;
+}
+
+.socialMedia{
+    margin-top: 5rem
+}
+.socialMediaCard{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.socialMediaIcon{
+
+    padding: 0.5rem;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(175, 174, 235);
+    
+}
+.socialMediaName{
+    text-align: center;
+}
+
+.socialMediaName label{
+    color: #183B56;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 45px;
+    
+}
+.socialMediaName p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #5A7184;
+}
+
+.socialMediaName a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #1565D8;
+}
+.discuss{
+    margin-top: 5rem;
+    background-color: aqua;
+    text-align: center;
+    padding: 3rem 0;
+}
+.whiteText{
+color:white;
+}
+
+.discuss .button{
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.discuss .button a{
+    color: #183B56;
+}
+
+.footer{
+    
+    background-color: #183B56;
+    padding-top: 5rem;
+}
+.footerCard{
+    margin: 10px 16px;
+    
+
+}
+
+.text{
+    margin-top: 2rem;
+    color: #b1bccc;
+    font-size: 20px;
+    
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+.socialmedia img{
+    width: 20px;
+    height: 20px;
+}
+
+.footerCard label{
+    font-size: 24px;
+    font-weight: 700;
+    color: #5A7184;
+}
+
+.footerCard a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.footerCard li{
+    margin-top: 1.5rem;
+}
+.copyright{
+    text-align: center;
+    margin-top: 3rem;
+}
+.heart{
+    color: white;
+    background-color:#1565D8;
+    display:inline-block;
+    padding: 1rem;
+    border-radius: 50%;
+    
+
+}
